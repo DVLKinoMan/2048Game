@@ -1,0 +1,280 @@
+﻿#info{
+	position: absolute;
+	left: 30%;
+	width: 454px;
+	height: 170px;
+	top: 0;
+	bottom: 75%;
+}
+#reachScoresDiv{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 30%;
+}
+#reachScoresDiv img{
+	clear: both;
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+	margin: 5px;
+}
+#reachScoresDiv h1{
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	color: #8f7a66;
+}
+#reachScoresDiv h2{
+	float: left;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #8f7a66;
+}
+#GameContent{
+	position: absolute;
+	left: 30%;
+	top: 170px;
+	width: 454px;
+	height: 454px;
+	border-radius: 3px;
+	background-color: #BBADA0;
+}
+#gameMessage{
+	position:absolute;
+	left:30%;
+	top: 170px;
+	width: 454px;
+	height: 454px;
+	text-align: center;
+}
+#gameText{
+	line-height: 300px;
+	font-size: 50px;
+	color: #8f7a66;
+}
+#continue{
+	position: absolute;
+	top: 250px;
+	left: 10%;
+	width: 150px;
+	height: 30px;
+	z-index: -1;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: #8f7a66;
+}
+#continue:hover{
+	color: yellow;
+}
+#retry{
+	position: absolute;
+	top: 250px;
+	right: 10%;
+	width: 150px;
+	height: 30px;
+	z-index: -1;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: #8f7a66;
+}
+#retry:hover{
+	color: yellow;
+}
+#logo{
+	position: absolute;
+	top: 30%;
+	bottom: 70%;
+	max-width: 100%;
+	max-height: 60%;
+}
+#score{
+	position: absolute;
+	top: 20%;
+	right: 25%;
+	width: 100px;
+	height: 50px;
+	background-color: #BBADA0;
+	border-radius: 3px;
+	line-height: 30px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+#bestscore{
+	position: absolute;
+	top: 20%;
+	right: 0;
+	width: 100px;
+	height: 50px;
+	background-color: #BBADA0;
+	border-radius: 3px;
+	line-height: 30px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+#labelScore, #labelBestScore{
+	font-size: 23px;
+	line-height: 10px;
+}
+#NewGame{
+	position: absolute;
+	right: 0;
+	bottom: 10%;
+	height: 40px;
+        width: 125px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #8f7a66;
+	border-radius: 6px;
+	line-height: 42px;
+	color: #F9F8F2;
+	cursor: pointer;
+}
+#NewGame:active{
+	color: yellow;
+}
+#undo{
+	position: absolute;
+	right: 150px;
+	bottom: 10%;
+	height: 40px;
+	width: 60px;
+	cursor: pointer;
+}
+#box1{
+	position: absolute;
+	left: 12px;
+	top: 12px;
+	width: 98px;
+	height: 98px;
+}
+#box2{
+	position: absolute;
+	left: 122px;
+	top: 12px;
+	width: 98px;
+	height: 98px;
+}
+#box3{
+	position: absolute;
+	left: 232px;
+	top: 12px;
+	width: 98px;
+	height: 98px;
+}
+#box4{
+	position: absolute;
+	left: 342px;
+	top: 12px;
+	width: 98px;
+	height: 98px;
+}
+#box5{
+	position: absolute;
+	left: 12px;
+	top: 122px;
+	width: 98px;
+	height: 98px;
+}
+#box6{
+	position: absolute;
+	left: 122px;
+	top: 122px;
+	width: 98px;
+	height: 98px;
+}
+#box7{
+	position: absolute;
+	left: 232px;
+	top: 122px;
+	width: 98px;
+	height: 98px;
+}
+#box8{
+	position: absolute;
+	left: 342px;
+	top: 122px;
+	width: 98px;
+	height: 98px;
+}
+#box9{
+	position: absolute;
+	left: 12px;
+	top: 232px;
+	width: 98px;
+	height: 98px;
+}
+#box10{
+	position: absolute;
+	left: 122px;
+	top: 232px;
+	width: 98px;
+	height: 98px;
+}
+#box11{
+	position: absolute;
+	left: 232px;
+	top: 232px;
+	width: 98px;
+	height: 98px;
+}
+
+#box12{
+	position: absolute;
+	left: 342px;
+	top: 232px;
+	width: 98px;
+	height: 98px;
+}
+
+#box13{
+	position: absolute;
+	left: 12px;
+	top: 342px;
+	width: 98px;
+	height: 98px;
+}
+
+#box14{
+	position: absolute;
+	left: 122px;
+	top: 342px;
+	width: 98px;
+	height: 98px;
+}
+
+#box15{
+	position: absolute;
+	left: 232px;
+	top: 342px;
+	width: 98px;
+	height: 98px;
+}
+
+#box16{
+	position: absolute;
+	left: 342px;
+	top: 342px;
+	width: 98px;
+	height: 98px;
+}

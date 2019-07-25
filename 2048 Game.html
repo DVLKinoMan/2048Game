@@ -1,0 +1,52 @@
+﻿<html>
+
+    <head>
+	<title>2048 Game </title>
+        <link rel="icon" href="Photos/2048icon.png">
+	<link rel="stylesheet" href="style.css">
+        <script src="2048Game.js"></script>
+	<script src="jquery-1.11.3.min.js"></script>
+    </head>
+
+    <body onload="whenLoadBody()" onkeydown="myKeyDownEvent(event)" onunload="whenUnLoadBody()">
+      <div id="info">
+	<image src="Photos//photo2048.png" id="logo">
+	<a  href="#" data-toggle="tooltip" title="Start New Game('ctrl+r' or 'r')" id="NewGame" onclick="newGame()">New Game</a>
+	<image href="#" data-toggle="tooltip" title="Undo Move('ctrl+z' or 'z')" src="Photos//backMove.png" id="undo" onclick="backMove()">
+	<div id="score">
+	    <label>score</label><br>
+	    <label  id="labelScore">0</label>
+	</div>
+	<div id="bestscore">
+	    <label>best</label><br>
+	    <label  id="labelBestScore">0</label>
+	</div>
+      </div>
+      <div id="reachScoresDiv">
+      </div>
+      <div id="GameContent">
+	<image src="Photos//empty.jpg" id="box1" name="box1">
+	<image src="Photos//empty.jpg" id="box2" name="box2">
+	<image src="Photos//empty.jpg" id="box3" name="box3">
+	<image src="Photos//empty.jpg" id="box4" name="box4">
+	<image src="Photos//empty.jpg" id="box5" name="box5">
+	<image src="Photos//empty.jpg" id="box6" name="box6">
+	<image src="Photos//empty.jpg" id="box7" name="box7">
+	<image src="Photos//empty.jpg" id="box8" name="box8">
+	<image src="Photos//empty.jpg" id="box9" name="box9">
+	<image src="Photos//empty.jpg" id="box10" name="box10">
+	<image src="Photos//empty.jpg" id="box11" name="box11">
+	<image src="Photos//empty.jpg" id="box12" name="box12">
+	<image src="Photos//empty.jpg" id="box13" name="box13">
+	<image src="Photos//empty.jpg" id="box14" name="box14">
+	<image src="Photos//empty.jpg" id="box15" name="box15">
+	<image src="Photos//empty.jpg" id="box16" name="box16">
+      </div>
+      <div id="gameMessage">
+        <label id="continue"  onclick="gameResume()">Keep Playing</label>
+        <label id="retry" onclick="newGame()">Try Again</label>
+        <h1 id="gameText"></h1>
+      </div>
+    </body>
+
+</html>
